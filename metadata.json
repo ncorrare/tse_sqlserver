@@ -1,0 +1,16 @@
+{
+  "name": "ncorrare-tse_sqlserver",
+  "version": "0.1.0",
+  "author": "ncorrare",
+  "summary": "A wrapper module to demo puppetlabs-sqlserver functionality",
+  "license": "Apache-2.0",
+  "source": "",
+  "project_page": null,
+  "issues_url": null,
+  "dependencies": [
+    {"name":"puppetlabs-stdlib","version_requirement":">= 1.0.0"},
+    {"name":"puppetlabs-sqlserver","version_requirement":">= 1.1.0"},
+    {"name":"puppetlabs-mount_iso","version_requirement":">= 0.1.0"}
+  ]
+}
+
