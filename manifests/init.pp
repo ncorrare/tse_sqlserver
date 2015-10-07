@@ -67,7 +67,7 @@ class tse_sqlserver {
 
   sqlserver_instance { 'MSSQLSERVER': 
     ensure                => present,
-    features              => [ 'SQL', 'Tools' ],
+    features              => [ 'SQL' ],
     source                => 'E:/',
     sql_sysadmin_accounts => [ 'vagrant' ],
     require               => Mount_Iso['C:\SQLServer2014-x64-ENU.iso'],
